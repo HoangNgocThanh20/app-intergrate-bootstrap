@@ -1,0 +1,48 @@
+.navbar-default .navbar-brand {
+  color: #000;
+}
+
+.navbar {
+  border-bottom: none;
+}
+
+.navbar-header {
+  border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+    border-bottom: none;
+  }
+}
+
+.navbar-nav > li {
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.navbar-collapse {
+  padding: 0;
+  border-top: none;
+}
+
+.col-xs-12 {
+  background-color: #e7e7e7;
+  margin-bottom: 10px;
+}
+
+.col-xs-12 > h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.col-xs-12 > p {
+  text-align: left;
+}
